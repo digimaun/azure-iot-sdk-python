@@ -28,7 +28,7 @@ except Exception as e:
     sys.exit(e)
 
 setup(
-    name='azure_iothub_service_client',
+    name='azure_iothub_service_client_linux',
     version=_version, # using version of actual c device client release plus minor release for Python
     description='IoT Hub Service Client Library',
     license='Apache Software License',
